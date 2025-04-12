@@ -35,10 +35,12 @@ This script connects to the Chrome history SQLite database and extracts:
 
 ### 📌 Steps to Run:
 
-1. 🔒 **Close Chrome completely** (so the History file is not locked)
-2. 📁 **Copy the History file** using this command in CMD:
-
-🖥️ SQLite GUI Method (DB Browser)
+1. Set Chrome history path in code ,usually path of chrome history path is C:\Users\<YourUsername>\AppData\Local\Google\Chrome\User Data\Default\History
+2. Make connection to SQlite database
+3. Fetch data from Urls table
+4. Convert to time stamp
+5. Remove NUll values
+6. Export the data in CSV.
 
 For a manual approach using the GUI:
 📌 Steps:
@@ -49,6 +51,7 @@ For a manual approach using the GUI:
 
     Click on "Open Database" → Select your copied History file
     mostly history file is stored in C:\Users\<YourUsername>\AppData\Local\Google\Chrome\User Data\Default\History
+
 
     Go to Browse Data tab
 
