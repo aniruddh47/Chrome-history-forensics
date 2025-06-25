@@ -1,22 +1,13 @@
 A digital forensics project that extracts and analyzes Chrome browsing history using Python and SQLite. Includes both automation via script and manual analysis via SQLite GUI.
-# 🔍 Chrome History Forensics Project
+#  Chrome History Forensics Project
 
 This is a mini **Digital Forensics** project to analyze Google Chrome browsing history using:
 
 - ✅ Python script (for automated extraction)
 - ✅ SQLite DB Browser (for manual inspection)
 
----
 
-## 🎯 Objective
-
-To extract and analyze the browser history stored in Chrome’s internal SQLite database and demonstrate two forensic approaches:
-1. Python-based scripting (automated)
-2. GUI-based analysis using DB Browser for SQLite
-
----
-
-## 🛠 Tools Used
+## Tools Used
 
 | Tool              | Purpose                                 |
 |------------------|-----------------------------------------|
@@ -25,7 +16,7 @@ To extract and analyze the browser history stored in Chrome’s internal SQLite 
 
 ---
 
-## 🧪 Python Script: `main.py`
+##  Python Script: `main.py`
 
 This script connects to the Chrome history SQLite database and extracts:
 - Website URL
